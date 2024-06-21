@@ -1,0 +1,95 @@
+/* Reset de estilos */
+body, ul {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Estilo global */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  nav {
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 10px 0;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+  }
+  
+  nav ul li {
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    color: #333;
+    text-decoration: none;
+    padding: 10px;
+    transition: color 0.3s;
+  }
+  
+  nav ul li a:hover {
+    color: #007bff;
+  }
+  
+  h1, h2 {
+    margin-bottom: 20px;
+  }
+  
+  /* Estilos específicos para componentes */
+  .user-list {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .user-list h2 {
+    margin-bottom: 10px;
+  }
+  
+  .user-list ul {
+    list-style: none;
+  }
+  
+  .user-list ul li {
+    margin-bottom: 10px;
+  }
+  
+  .user-list ul li a {
+    color: #333;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  .user-list ul li a:hover {
+    color: #007bff;
+  }
+  
+  .user-details {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .user-details p {
+    margin-bottom: 10px;
+  }
+  
+  .user-details p strong {
+    font-weight: bold;
+  }
+  
